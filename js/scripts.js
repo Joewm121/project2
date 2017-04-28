@@ -1,10 +1,9 @@
 $(document).ready(function() {
   $("#panel-title").click(function() {
     $("#aboutme").toggle();
-    $("#backround").toggle();
   });
 });
-
+alert("hey hey hey");
 // UI logic
 $(function() {
   $("#contact").submit(function(event) {

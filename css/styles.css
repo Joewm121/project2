@@ -113,11 +113,17 @@ font-size: 20px;
 text-decoration: line-through;
 }
 .container1 {
+  margin: auto;
   display: ;
   text-align: center;
+  width: 50%
 }
 
 .container2 {
+  margin: auto;
   display: none;
   text-align: center;
+}
+#aboutme {
+  display: none;
 }
