@@ -33,37 +33,6 @@
   text-align: center;
   text-shadow: 2px black;
 }
-<<<<<<< HEAD
-
-.color {
-color: blue;
-font-weight: bolder;
-font-size: 20px;
-}
-.color:hover {
-  text-decoration: underline;
-}
-.fivedone {
-text-decoration: line-through;
-}
-.container1 {
-  margin: auto;
-  display: ;
-  text-align: center;
-  width: 50%
-}
-
-.container2 {
-  margin: auto;
-  display: none;
-=======
 .container {
   background-color: grey;
-}
-button {
->>>>>>> gh-pages
-  text-align: center;
-}
-#aboutme {
-  display: none;
 }
