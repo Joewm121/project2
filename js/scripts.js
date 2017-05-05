@@ -31,7 +31,6 @@ $(document).ready(function() {
 
     var output = tracker(sharp, java, php, ruby, breakfast);
 
-console.log("gfgdfg");
-      $(output).show();
+    $(output).show();
   });
 });
