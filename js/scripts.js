@@ -1,21 +1,37 @@
-$(document).ready(function() {
-  $("#panel-title").click(function() {
-    $("#aboutme").toggle();
-    $("#backround").toggle();
-  });
-});
+function tracker(sharp, java, php, ruby, breakfast) {
+  var result;
+  if (sharp === "Yes") {
+    result = '#sharp2';
+  } else if (java === "Yes") {
+    result = '#java2';
+  } else if (sharp === "No" && java === "Yes") {
+    result = '#java2';
+  } else if (php === "No" && java === "Yes") {
+    result = '#ruby2';
+  } else if (php === "Yes") {
+    result = '#php2';
+  } else if (ruby === "Yes") {
+    result = '#ruby2';
+  } else {
+    result = '#breakfast2';
+  }
+  return result;
+}
 
-// UI logic
-$(function() {
-  $("#contact").submit(function(event) {
-    var name = $("input#name").val();
-    var email = $("input#email").val()
-    var comment = $("input#comment").val()
-    $(".nameConfirm").text(name);
-    $(".emailConfirm").text(email);
-    $(".commentConfirm").text(comment);
-    $(".container1").fadeToggle();
-    $(".container2").fadeToggle();
+
+$(document).ready(function() {
+  // submit is method
+  $("form#questions").submit(function(event) {
     event.preventDefault();
+    var sharp = $("#sharp").val();
+    var java = $("#java").val();
+    var php = $("#php").val();
+    var ruby = $("#ruby").val();
+    var breakfast = $("#breakfast").val();
+
+    var output = tracker(sharp, java, php, ruby, breakfast);
+
+console.log("gfgdfg");
+      $(output).show();
   });
 });
