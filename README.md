@@ -10,7 +10,11 @@ _This is a Portfolio page i've created to showcase the HTML,CSS, javascript tool
 
 ## Setup/Installation Requirements
 
+<<<<<<< HEAD
 * _https://github.com/Joewm121/project1_
+=======
+* _https://github.com/Joewm121/project2_
+>>>>>>> gh-pages
 * _Download Repository_
 * _Open in Atom_
 

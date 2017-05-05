@@ -1,105 +1,39 @@
-
-body {
-  color: black;
-  font-family: sans-serif;
-}
-.me {
-  float: left;
-  border-radius: 10px;
-  border: 1px solid black;
-  box-shadow: 2px black;
-  margin: 1 1 1 1;
-}
-p {
+#sharp2 {
+  display: none;
+  border:  3px solid black;
+  color: white;
   text-align: center;
-
+  text-shadow: 2px black;
 }
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-h1 {
+#java2 {
+  display: none;
+  border:  3px solid  black;
+  color: white;
   text-align: center;
-  margin: 0px 0px;
+  text-shadow: 2px black;
 }
-header {
-width: 100%;
-}
-h3 {
-float: left;
-width: 100%;
-margin: 0px 0px;
-}
-nav {
-float: right;
-}
-.top {
-  float: right;
-}
-.interests {
-  list-style: none;
-  width: 100%;
-}
-.top {
-  float: right;
-}
-.landingtext {
-  border: 2px solid black;
+#php2 {
+  display: none;
+  border:  3px solid  black;
+  color: white;
   text-align: center;
-  padding: 4px 4px;
+  text-shadow: 2px black;
 }
-.jumbotron {
-  padding: 0;
-  position:relative;
-  width: 100%;
-  background-color: #A9A9A9;
-  margin: 0px 0px;
-}
-.topbanner {
-  width: 100%;
-  z-index: 0;
-  position: relative;
-  border: 3px solid black;
-}
-.panel > .panel-heading {
-    background-image: none;
-    background-color: #A9A9A9;
-    color: white;
-}
-.col-md-8 {
-  padding: 10px 0 0 0;
-}
-.col-md-2 {
-  padding: 10px 5px 5px 5px;
-  float: right;
+#ruby2 {
+  display: none;
+  border:  3px solid  black;
+  color: white;
   text-align: center;
+  text-shadow: 2px black;
 }
-.col-md-12 {
-  padding: 10px 0 0 0;
-}
-.well {
+#breakfast2 {
+  display: none;
+  border:  3px solid  black;
+  color: white;
   text-align: center;
-  position: relative;
-  padding: 0;
+  text-shadow: 2px black;
 }
-ul {
-  padding:0;
-}
-.interests {
-  font-size: 20px;
-  text-align: center;
-  list-style: none;
-}
-.list {
-  list-style: none;
-  text-align: center;
-}
-.listlang {
-  font-size: 15px;
-  list-style: none;
-  text-align: center;
-}
+<<<<<<< HEAD
 
 .color {
 color: blue;
@@ -122,6 +56,12 @@ text-decoration: line-through;
 .container2 {
   margin: auto;
   display: none;
+=======
+.container {
+  background-color: grey;
+}
+button {
+>>>>>>> gh-pages
   text-align: center;
 }
 #aboutme {
